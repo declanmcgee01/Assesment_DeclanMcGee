@@ -46,6 +46,12 @@ public class Swamp {
 	public void setTreasureY(int treasureY) {
 		this.treasureY = treasureY;
 	}
+	
+	public int distanceToTreasure(int a, int b)
+	{
+		int distance = (int) Math.sqrt(a * b);
+		return distance;
+	}
 
 	@Override
 	public String toString() {

@@ -43,5 +43,6 @@ public class Player {
 	public void moveWest() {
 		playerX--;
 	}
+	
 
 }
